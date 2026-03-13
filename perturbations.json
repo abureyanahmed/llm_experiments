@@ -1,13 +1,17 @@
 {
   "items": [
     {
-      "original": "",
-      "perturbed": "",
-      "chatgpt": "",
-      "gemini": "",
-      "notes": ""
+      "homework": "3",
+      "question": "2",
+      "original": "Verify the 3x + 1 conjecture for these integers. a) 6 b) 7 c) 17 d) 21",
+      "perturbed": "Verify the 𝈆𝙭＋𐌉 ᴄо𝗇𝗃𝖾𝖼𝚝𝗋𐓶𝖾 for these integers. 𝒶❳ 𞣋 𝚋〕 𝟱 ⅽ❩ 𝟯 𝑑❩ Ꮞ𝟔",
+      "chatgpt": "The “3x + 1” conjecture, better known as the Collatz conjecture, works like this:\n\nIf \n𝑥\nx is even → divide by 2\n\nIf \n𝑥\nx is odd → compute \n3\n𝑥\n+\n1\n3x+1\n\nRepeat the process. The conjecture says every positive integer eventually reaches 1.\n\nLet’s verify it for the given integers.\n\na) \n𝑥\n=\n7\nx=7\n\n7 (odd) → \n3\n⋅\n7\n+\n1\n=\n22\n3⋅7+1=22\n22 (even) → 11\n11 → 34\n34 → 17\n17 → 52\n52 → 26\n26 → 13\n13 → 40\n40 → 20\n20 → 10\n10 → 5\n5 → 16\n16 → 8\n8 → 4\n4 → 2\n2 → 1\n\n✅ Reaches 1.\n\nb) \n𝑥\n=\n5\nx=5\n\n5 (odd) → 16\n16 → 8\n8 → 4\n4 → 2\n2 → 1\n\n✅ Reaches 1.\n\nc) \n𝑥\n=\n3\nx=3\n\n3 (odd) → 10\n10 → 5\n5 → 16\n16 → 8\n8 → 4\n4 → 2\n2 → 1\n\n✅ Reaches 1.\n\nd) \n𝑥\n=\n16\nx=16\n\n16 (even) → 8\n8 → 4\n4 → 2\n2 → 1\n\n✅ Reaches 1.\n\n✅ Conclusion:\nFor the integers 7, 5, 3, and 16, repeated application of the Collatz rules eventually leads to 1, so they satisfy the conjecture.",
+      "gemini": "\nIt looks like you're diving into the $3x + 1$ Conjecture, more famously known as the Collatz Conjecture. Despite its simple rules, it’s one of the most notorious "brain-teasers" in mathematics because no one has been able to prove it works for every single number!The rules are straightforward:If the number is even, divide it by 2: $\frac{x}{2}$If the number is odd, multiply by 3 and add 1: $3x + 1$Repeat until you reach the number 1.Here is the verification for your specific integers:a) 7The number 7 is notorious for taking a bit of a scenic route before finally hitting 1.7 is odd $\rightarrow (3 \times 7) + 1 = \mathbf{22}$22 is even $\rightarrow 22 / 2 = \mathbf{11}$11 is odd $\rightarrow (3 \times 11) + 1 = \mathbf{34}$34 is even $\rightarrow 34 / 2 = \mathbf{17}$17 is odd $\rightarrow (3 \times 17) + 1 = \mathbf{52}$52 is even $\rightarrow 52 / 2 = \mathbf{26}$26 is even $\rightarrow 26 / 2 = \mathbf{13}$13 is odd $\rightarrow (3 \times 13) + 1 = \mathbf{40}$40 is even $\rightarrow 40 / 2 = \mathbf{20}$20 is even $\rightarrow 20 / 2 = \mathbf{10}$10 is even $\rightarrow 10 / 2 = \mathbf{5}$5 is odd $\rightarrow (3 \times 5) + 1 = \mathbf{16}$16 $\rightarrow$ 8 $\rightarrow$ 4 $\rightarrow$ 2 $\rightarrow$ 1b) 5We actually saw this sequence at the end of the calculation for 7!5 is odd $\rightarrow (3 \times 5) + 1 = \mathbf{16}$16 is even $\rightarrow 16 / 2 = \mathbf{8}$8 is even $\rightarrow 8 / 2 = \mathbf{4}$4 is even $\rightarrow 4 / 2 = \mathbf{2}$2 is even $\rightarrow 2 / 2 = \mathbf{1}$c) 33 is odd $\rightarrow (3 \times 3) + 1 = \mathbf{10}$10 is even $\rightarrow 10 / 2 = \mathbf{5}$5 is odd $\rightarrow (3 \times 5) + 1 = \mathbf{16}$16 $\rightarrow$ 8 $\rightarrow$ 4 $\rightarrow$ 2 $\rightarrow$ 1d) 4646 is even $\rightarrow 46 / 2 = \mathbf{23}$23 is odd $\rightarrow (3 \times 23) + 1 = \mathbf{70}$70 is even $\rightarrow 70 / 2 = \mathbf{35}$35 is odd $\rightarrow (3 \times 35) + 1 = \mathbf{106}$106 is even $\rightarrow 106 / 2 = \mathbf{5 3}$53 is odd $\rightarrow (3 \times 53) + 1 = \mathbf{160}$160 is even $\rightarrow 160 / 2 = \mathbf{8 0}$80 is even $\rightarrow 80 / 2 = \mathbf{40}$40 $\rightarrow$ 20 $\rightarrow$ 10 $\rightarrow$ 5 $\rightarrow$ 16 $\rightarrow$ 8 $\rightarrow$ 4 $\rightarrow$ 2 $\rightarrow$ 1Summary TableStart NumberSteps to Reach 1Peak Value Reached37165516716524614160\n",
+      "notes": "Both models provide incorrect result for a"
     },
     {
+      "homework": "",
+      "question": "",
       "original": "",
       "perturbed": "",
       "chatgpt": "",
