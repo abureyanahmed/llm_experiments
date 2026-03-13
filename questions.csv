@@ -1,0 +1,174 @@
+homework,question_number,question
+1,1,Use a direct proof to show that the sum of two even integers is even.
+1,2,"Show that the additive inverse, or negative, of an even number is an even number using a direct proof."
+1,3,Use a direct proof to show that the product of two odd numbers is odd.
+1,4,"Prove that if n is a perfect square, then n + 2 is not a perfect square."
+1,5,Prove or disprove that the product of a nonzero rational number and an irrational number is irrational.
+1,6,"Prove that if x is rational and x ≠ 0, then 1/x is rational."
+1,7,"Prove that if m and n are integers and mn is even, then m is even or n is even."
+1,8,"Prove that if n is an integer and 3n + 2 is even, then n is even using a) a proof by contraposition. b) a proof by contradiction."
+1,9,"Prove the proposition P(1), where P(n) is the proposition “If n is a positive integer , then n 2 ≥ n.” What kind of proof did you use?"
+1,10,"Show that if you pick three socks from a drawer containing just blue socks and black socks, you must get either a pair of blue socks or a pair of black socks."
+1,11,"Prove that if n is a positive integer , then n is even if and only if 7n + 4 is even."
+1,12,Prove that m 2 = n 2 if and only if m = n or m = −n.
+1,13,"Show that these three statements are equivalent, where a and b are real numbers: (i) a is less than b, (ii) the average of a and b is greater than a, and (iii) the average of a and b is less than b."
+1,14,"Show that these statements about the real number x are equivalent: (i) x is rational, (ii) x/2 is rational, (iii) 3x − 1 is rational."
+1,15,"Show that the propositions p 1 , p 2 , p 3 , and p 4 can be shown to be equivalent by showing that p 1 ↔ p 4 , p 2 ↔ p 3 , and p 1 ↔ p 3 ."
+2,1,Prove that there are no positive perfect cubes less than 1000 that are the sum of the cubes of two positive integers.
+2,2,"Use a proof by cases to show that min(a, min(b, c)) = min(min(a, b), c) whenever a, b, and c are real numbers."
+2,3,Prove using the notion of without loss of generality that 5x + 5y is an odd integer when x and y are integers of opposite parity .
+2,4,Prove that there is a positive integer that equals the sum of the positive integers not exceeding it. Is your proof constructive or nonconstructive?
+2,5,Prove that either 2 · 10 500 + 15 or 2 · 10 500 + 16 is not a perfect square. Is your proof constructive or nonconstructive?
+2,6,"Show that the product of two of the numbers 65 1000 − 8 2001 + 3 177 , 79 1212 − 9 2399 + 2 2001 , and 24 4493 − 5 8192 + 7 1777 is nonnegative. Is your proof constructive or nonconstructive? [Hint: Do not try to evaluate these numbers!]"
+2,7,"Prove or disprove that if a and b are rational numbers, then a b is also rational."
+2,8,"Show that if a, b, and c are real numbers and a ≠ 0, then there is a unique solution of the equation ax + b = c."
+2,9,"Show that if r is an irrational number , there is a unique integer n such that the distance between r and n is less than 1/2."
+2,10,"Prove that given a real number x there exist unique numbers n and ε such that x = n + ε , n is an integer , and 0 ≤ ε < 1."
+2,11,"Use forward reasoning to show that if x is a nonzero real number , then x 2 + 1/x 2 ≥ 2. [Hint: Start with the inequality (x − 1/x) 2 ≥ 0 which holds for all nonzero real numbers x.]"
+2,12,"The harmonic mean of two real numbers x and y equals 2xy/(x + y). By computing the harmonic and geometric means of different pairs of positive real numbers, formulate a conjecture about their relative sizes and prove your conjecture."
+2,13,Formulate a conjecture about the decimal digits that appear as the final decimal digit of the fourth power of an integer . Prove your conjecture using a proof by case.
+2,14,Prove that there are no solutions in integers x and y to the equation 2x 2 + 5y 2 = 14.
+2,15,"Prove that there are infinitely many solutions in positive integers x, y, and z to the equation x 2 + y 2 = z 2 . [Hint: Let x = m 2 − n 2 , y = 2mn, and z = m 2 + n 2 , where m and n are integers.]"
+3,1,"Prove or disprove that if you have an 8-gallon jug of water and two empty jugs with capacities of 5 gallons and 3 gallons, respectively , then you can measure 4 gallons by successively pouring some of or all of the water in a jug into another jug."
+3,2,Verify the 3x + 1 conjecture for these integers. a) 6 b) 7 c) 17 d) 21
+3,3,Prove that you can use dominoes to tile a rectangular checkerboard with an even number of squares.
+3,4,Show that by removing two white squares and two black squares from an 8 × 8 checkerboard (assume only black and white colors are used) you can make it impossible to tile the remaining squares using dominoes.
+3,5,"Find these terms of the sequence {a n }, where a n = 2·(−3) n + 5 n . a) a 0 b) a 1 c) a 4 d) a 5"
+3,6,What is the term a 8 of the sequence {a n } if a n equals a) 2 n−1 ? b) 7? c) 1 + (−1) n ? d) −(−2) n ?
+3,7,"3. What are the terms a 0 , a 1 , a 2 , and a 3 of the sequence {a n }, where a n equals a) 2 n + 1? b) (n + 1) n+1 ? c) ⌊ n/2 ⌋ ? d) ⌊ n/2 ⌋ + ⌈ n/2 ⌉ ?"
+3,8,"List the first 10 terms of each of these sequences. a) the sequence that begins with 2 and in which each successive term is 3 more than the preceding term b) the sequence whose first term is 2, second term is 4, and each succeeding term is the sum of the two preceding terms"
+3,9,"Find the first five terms of the sequence defined by each of these recurrence relations and initial conditions. a) a n = 6a n−1 , a 0 = 2 b) a n = a 2 n−1 , a 1 = 2 c) a n = a n−1 + 3a n−2 , a 0 = 1, a 1 = 2 d) a n = na n−1 + n 2 a n−2 , a 0 = 1, a 1 = 1 e) a n = a n−1 + a n−3 , a 0 = 1, a 1 = 2, a 2 = 0"
+3,10,"Let a n = 2 n + 5·3 n for n = 0, 1, 2, … a) Find a 0 , a 1 , a 2 , a 3 , and a 4 . b) Show that a 2 = 5a 1 − 6a 0 , a 3 = 5a 2 − 6a 1 , and a 4 = 5a 3 − 6a 2 . c) Show that a n = 5a n−1 − 6a n−2 for all integers n with n ≥ 2."
+3,11,Show that the sequence {a n } is a solution of the recurrence relation a n = −3a n−1 + 4a n−2 if a) a n = 0. b) a n = 1. c) a n = (−4) n . d) a n = 2(−4) n + 3.
+3,12,Is the sequence {a n } a solution of the recurrence relation a n = 8a n−1 − 16a n−2 if a) a n = 0? b) a n = 1? c) a n = 2 n ? d) a n = 4 n ?
+3,13,For each of these sequences find a recurrence relation satisfied by this sequence. (The answers are not unique because there are infinitely many different recurrence relations satisfied by any sequence.) a) a n = 3 b) a n = 2n c) a n = 2n + 3 d) a n = 5 n
+3,14,Show that the sequence {a n } is a solution of the recurrence relation a n = a n−1 + 2a n−2 + 2n − 9 if a) a n = −n + 2. b) a n = 5(−1) n − n + 2. c) a n = 3(−1) n + 2 n − n + 2. d) a n = 7·2 n − n + 2.
+3,15,"Find the solution to each of these recurrence relations with the given initial conditions. Use an iterative approach such as that used in class. a) a n = −a n−1 , a 0 = 5 b) a n = a n−1 + 3, a 0 = 1 c) a n = a n−1 − n, a 0 = 4 d) a n = 2a n−1 − 3, a 0 = −1"
+4,1,"A permutation of a set is an arrangement of its members into a sequence. If the set is {1, 2, 3}, then the possible permutations are: (1, 2, 3), (1, 3, 2), (2, 1, 3), (2, 3, 1), (3, 1, 2), and (3, 2, 1). Hence the number of permutations of this set is 6. a) Find a recurrence relation for the number of permutations of a set with n elements. b) Use this recurrence relation to find the number of permutations of a set with n elements using iteration."
+4,2,Find a recurrence relation to compute the number of bit strings. Write down a procedure that takes n as an input parameter and returns the number of bit strings. You can provide the pseudocode or implement it in your favorite programming language.
+4,3,"How can you modify the procedure so that instead of returning the number of bit strings, it returns a list of all bit strings? Please provide the procedure/program."
+4,4,How can you verify given a bit string whether it contains two consecutive zeros? Please provide a procedure/program.
+4,5,a) Find a recurrence relation for the number of bit strings of length n that contain a pair of consecutive 0s. b) What are the initial conditions? c) How many bit strings of length seven contain two consecutive 0s?
+4,6,a) Find a recurrence relation for the number of bit strings of length n that contain three consecutive 0s. b) What are the initial conditions? c) How many bit strings of length seven contain three consecutive 0s?
+4,7,"Solve a n = 5a n−1 − 6a n−2 for n ≥ 2, a 0 = 1, a 1 = 0."
+4,8,"Solve a n = 4a n−2 for n ≥ 2, a 0 = 0, a 1 = 4."
+4,9,"Solve a n = a n−2 /4 for n ≥ 2, a 0 = 1, a 1 = 0."
+4,10,"Solve a n = a n−1 + 6a n−2 for n ≥ 2, a 0 = 3, a 1 = 6."
+4,11,"Solve a n = 7a n−1 − 10a n−2 for n ≥ 2, a 0 = 2, a 1 = 1."
+4,12,"For integer multiplication, we solved the n-bit problem by using three solutions of n/2-bit problems and additional cn operations. However , the analysis was very complicated. If we use a simpler analysis and solve the n-bit problem by using four solutions of n/2-bit problems and additional c 1 n operations, then what will be the recurrence? What will be the solution to that recurrence achieved from the simpler analysis?"
+4,13,"Suppose that f (n) = f (n/3) + 1 when n is a positive integer divisible by 3, and f (1) = 1. Find a) f(3). b) f(27). c) f(729)."
+4,14,"Find f(n) when n = 2 k , where f satisfies the recurrence relation f(n) = f(n/2) + 1 with f(1) = 1."
+4,15,"Find f(n) when n = 3 k , where f satisfies the recurrence relation f(n) = 2f(n/3) + 4 with f(1) = 1."
+5,1,"Let P(n) be the statement that 1 3 + 2 3 +· · ·+n 3 = (n(n + 1)/2) 2 for the positive integer n. a) What is the statement P(1)? b) Show that P(1) is true, completing the basis step of the proof. c) What is the inductive hypothesis? d) What do you need to prove in the inductive step? e) Complete the inductive step, identifying where you use the inductive hypothesis."
+5,2,Prove that 1 2 + 3 2 + 5 2 +· · ·+(2n + 1) 2 = (n + 1)(2n + 1)(2n + 3)/3
+5,3,Prove that 1·1! + 2·2! + · · · + n·n! = (n + 1)! − 1 whenever n is a positive integer .
+5,4,Prove that 3 + 3·5 + 3·5 2 + · · · + 3·5 n = 3(5 n+1 −1)/4 whenever n is a nonnegative integer .
+5,5,Prove that 2 − 2·7 + 2·7 2 − · · · + 2(−7) n = (1 − (−7) n+1 )/4 whenever n is a nonnegative integer .
+5,6,a) Find a formula for the sum of the first n even positive integers. b) Prove the formula that you conjectured in part (a).
+5,7,a) Find a formula for ½ + ¼ + ⅛ + · · · + 1/2 n by examining the values of this expression for small values of n. (Hint: use geometric progression to make a good guess.) b) Prove the formula you conjectured in part (a).
+5,8,a) Find a formula for 1/3 + 1/9 + 1/27 + · · · + 1/3 n by examining the values of this expression for small values of n. (Hint: use geometric progression to make a good guess.) b) Prove the formula you conjectured in part (a).
+5,9,Prove that 1 2 − 2 2 + 3 2 − · · · + (−1) n−1 n 2 = (−1) n−1 n(n + 1)/2 whenever n is a positive integer .
+5,10,"Let P(n) be the statement that a postage of n cents can be formed using just 3-cent stamps and 5-cent stamps. The parts of this exercise outline a strong induction proof that P(n) is true for n ≥ 8. a) Show that the statements P(8), P(9), and P(10) are true, completing the basis step of the proof. b) What is the inductive hypothesis of the proof? What do you need to prove in the inductive step? c) Complete the inductive step for k ≥ 10. Explain why these steps show that this statement is true whenever n ≥ 8."
+5,11,"Let P(n) be the statement that a postage of n cents can be formed using just 4-cent stamps and 7-cent stamps. The parts of this exercise outline a strong induction proof that P(n) is true for n ≥ 18. a) Show statements P(18), P(19), P(20), and P(21) are true, completing the basis step of the proof. b) What is the inductive hypothesis of the proof? What do you need to prove in the inductive step? c) Complete the inductive step for k ≥ 21. Explain why these steps show that this statement is true whenever n ≥ 18."
+5,12,a) Determine which amounts of postage can be formed using just 4-cent and 11-cent stamps. b) Prove your answer to (a) using the principle of mathematical induction. Be sure to state explicitly your inductive hypothesis in the inductive step. c) Prove your answer to (a) using strong induction. How does the inductive hypothesis in this proof differ from that in the inductive hypothesis for a proof using mathematical induction?
+5,13,a) Determine which amounts of postage can be formed using just 3-cent and 10-cent stamps. b) Prove your answer to (a) using the principle of mathematical induction. Be sure to state explicitly your inductive hypothesis in the inductive step. c) Prove your answer to (a) using strong induction. How does the inductive hypothesis in this proof differ from that in the inductive hypothesis for a proof using mathematical induction?
+5,14,Which amounts of money can be formed using just two dollar bills and five-dollar bills? Prove your answer using strong induction.
+5,15,"Prove that the first player has a winning strategy for the game of Chomp, introduced in a lecture at the class, if the initial board is square. [Hint: Use strong induction to show that this strategy works. For the first move, the first player chomps all cookies except those in the left and top edges. On subsequent moves, after the second player has chomped cookies on either the top or left edge, the first player chomps cookies in the same relative positions on the left or top edge, respectively .]"
+6,1,Show that the set S defined by 1 ∈ S and s + t ∈ S whenever s ∈ S and t ∈ S is the set of positive integers.
+6,2,"Consider the recursively defined function with two parameters m and n. The basis step is a 1,1 =5. The recursive step is: a m,n = { a m-1,n +2 if n=1 and m>1 a m,n-1 +2 if n>1 Show that a m,n =2(m+n)+1 when m and n are positive integers."
+6,3,"Find these values of Ackermann’ s function. a) A(1, 0) b) A(0, 1) c) A(1, 1) d) A(2, 2)"
+6,4,"Show that A(1, n) = 2 n whenever n ≥ 1."
+6,5,Compute the GCD of 20 and 52 using the brute force method that we discussed in class. Provide all divisors of 20 and 52. Provide the list of common divisors. And finally provide the GCD.
+6,6,Compute the GCD of 98 and 154 using the brute force method that we discussed in class. Provide all divisors of 98 and 154. Provide the list of common divisors. And finally provide the GCD.
+6,7,Compute the GCD of 20 and 52 using the Euclidean algorithm. Show each step of the algorithm.
+6,8,Compute the GCD of 98 and 154 using the Euclidean algorithm. Show each step of the algorithm.
+6,9,Give a recursive algorithm for finding a mode of a list of integers. (A mode is an element in the list that occurs at least as often as every other element.) You can assume that the list contains at least one integer .
+6,10,"Consider the list 1, 5, 2, 3, 6, 4. Execute mergesort on this list and show each step of the algorithm."
+6,11,"Consider the list 3, 5, 7, 3, 6, 7, 1, 4. Execute mergesort on this list and show each step of the algorithm."
+6,12,"Consider the list 8, 17, 6, 2, 16, 5, 13, 8, 11. Execute mergesort on this list and show each step of the algorithm."
+6,13,"Consider the following program: procedur e multyply_neg_one (n): m := -1 i := 1 while i<n: i := i + 1 m := m.(-1) Show that after executing the program for a particular value of n>0, m = (-1) n"
+6,14,"Consider the following program: procedur e sum (n): s := 1 i := 1 while i<n: i := i + 1 s := s + i Show that after executing the program for a particular value of n>0, s = n(n+1)/2"
+6,15,"Consider the following program: procedur e iterative_fibonacci (n) x := 0 y := 1 i := 1 while i < n i := i + 1 z := x + y x := y y := z Show that after executing the program for a particular value of n>0, y = f n , the n-th element of Fibonacci sequence."
+7,1,Describe the type of the following graph.
+7,2,Describe the type of the following graph.
+7,3,"For each graph in Questions 1 and 2 that is not simple, find a set of edges to remove to make it simple. Keep the size of the set as small as possible."
+7,4,"Draw the acquaintanceship graph that represents that Tom and Patricia, Tom and Hope, Tom and Sandy , Tom and Amy , Tom and Marika, Jeff and Patricia, Jeff and Mary , Patricia and Hope, Amy and Hope, and Amy and Marika know each other , but none of the other pairs of people listed know each other ."
+7,5,"Construct the call graph for a set of seven telephone numbers 555-001 1, 555-1221, 555-1333, 555-8888, 555-2222, 555-0091, and 555-1200 if there were three calls from 555-001 1 to 555-8888 and two calls from 555-8888 to 555-001 1, two calls from 555-2222 to 555-0091, two calls from 555-1221 to each of the other numbers, and one call from 555-1333 to each of 555-001 1, 555-1221, and 555-1200."
+7,6,a) Explain how graphs can be used to model electronic mail messages in a network. Should the edges be directed or undirected? Should multiple edges be allowed? Should loops be allowed? b) Describe a graph that models the electronic mail sent in a network in a particular week.
+7,7,"Find the number of vertices, the number of edges, and the degree of each vertex in the following undirected graph. Identify all isolated and pendant vertices."
+7,8,Is it possible to have 3 vertices with vertex degrees equal to 17 and the remaining vertex degrees are even in an undirected graph? Provide formal arguments to justify your answer .
+7,9,Determine the number of vertices and edges and find the in-degree and out-degree of each vertex for the following directed multigraph.
+7,10,Show that in a simple graph with at least two vertices there must be two vertices that have the same degree.
+7,11,"Recall that Hall’ s theorem provides a necessary and sufficient condition for complete matching in a bipartite graph G=(V 1 ∪ V 2 , E). Answer the following questions about this theorem with detailed reasoning. A. According to this theorem, if |A|≤|N(A)| for every A ⊆ V 1 , then there is a complete matching. In the proof it only considered two cases; case 1: every set of j vertices has at least j+1 neighbors and case 2: there exists a set of j vertices that have j neighbors. Why doesn't the proof need to consider the case that every j vertices have less than j neighbors? B. In case 1, what problem will you face if instead of removing 1 element out of j elements, you remove 2 elements? C. In case 2, we match a set of j vertices with j neighbors and remove the matched vertices, then we say we should be able to apply IH on the rest of the graph. Otherwise, we show a contradiction. Why can’t we apply the same technique to case 1?"
+7,12,"Suppose that a new company has five employees: Zamora, Agraharam, Smith, Chou, and Macintyre. Each employee will assume one of six responsibilities: planning, publicity , sales, marketing, development, and industry relations. Each employee is capable of doing one or more of these jobs: Zamora could do planning, sales, marketing, or industry relations; Agraharam could do planning or development; Smith could do publicity , sales, or industry relations; Chou could do planning, sales, or industry relations; and Macintyre could do planning, publicity , sales, or industry relations. A. Model the capabilities of these employees using a bipartite graph. B. Find an assignment of responsibilities such that each employee is assigned one responsibility . C. Is the matching of responsibilities you found in part B a complete matching from employees to responsibilities? Is it a maximum matching?"
+7,13,Use an adjacency list to represent the following graph.
+7,14,Determine whether the following pair of graphs is isomorphic. Exhibit an isomorphism or provide a rigorous argument that none exists.
+7,15,Determine whether the following pair of graphs is isomorphic. Exhibit an isomorphism or provide a rigorous argument that none exists.
+8,1,"Determine whether the following graph is strongly connected and if not, whether it is weakly connected."
+8,2,"Determine whether the following graph is strongly connected and if not, whether it is weakly connected."
+8,3,
+8,4,
+8,5,
+8,6,
+8,7,Find the length of a shortest path between a and z in the given weighted graph.
+8,8,Find the length of a shortest path between a and z in the given weighted graph.
+8,9,Extend Dijkstra’ s algorithm for finding the length of a shortest path between two vertices in a weighted simple connected graph so that a shortest path between these vertices is constructed.
+8,10,Is a shortest path between two vertices in a weighted graph unique if the weights of edges are distinct?
+8,11,Draw the given planar graph without any crossings.
+8,12,Draw the given planar graph without any crossings.
+8,13,"Determine whether the given graph is planar . If so, draw it so that no edges cross."
+8,14,"Determine whether the given graph is planar . If so, draw it so that no edges cross."
+8,15,"Suppose that a connected planar graph has eight vertices, each of degree three. Into how many regions is the plane divided by a planar representation of this graph?"
+9,1,
+9,2,
+9,3,
+9,4,
+9,5,
+9,6,Which graphs have a chromatic number of 1?
+9,7,What is the least number of colors needed to color a map of the United States? Do not consider adjacent states that meet only at a corner . Suppose that Michigan is one region. Consider the vertices representing Alaska and Hawaii as isolated vertices. Explain your reasoning.
+9,8,Show that a simple graph that has a circuit with an odd number of vertices in it cannot be colored using two colors.
+9,9,"How many different channels are needed for six stations located at the distances shown in the table, if two stations cannot use the same channel when they are within 150 miles of each other?"
+9,10,"A zoo wants to set up natural habitats in which to exhibit its animals. Unfortunately , some animals will eat some of the others when given the opportunity . How can a graph model and a coloring be used to determine the number of different habitats needed and the placement of the animals in these habitats?"
+9,11,Which of these graphs are trees?
+9,12,Answer these questions about the rooted tree illustrated. a) Which vertex is the root? b) Which vertices are internal? c) Which vertices are leaves? d) Which vertices are children of j? e) Which vertex is the parent of h? f ) Which vertices are siblings of o? g) Which vertices are ancestors of m? h) Which vertices are descendants of b? 12
+9,13,"Which complete bipartite graphs K m,n , where m and n are positive integers, are trees?"
+9,14,How many vertices does a full 5-ary tree with 100 internal vertices have?
+9,15,A complete m-ary tree is a full m-ary tree in which every leaf is at the same level. How many vertices and how many leaves does a complete m-ary tree of height h have?
+10,1,"Build a binary search tree for the words oenology , phrenology , campanology , ornithology , ichthyology , limnology , alchemy , and astrology using alphabetical order ."
+10,2,How many weighings of a balance scale are needed to find a lighter counterfeit coin among four coins? Describe an algorithm to find the lighter coin using this number of weighings.
+10,3,"Construct the binary tree with prefix codes representing these coding schemes. a) a: 11, e: 0, t : 101, s: 100 b) a: 1, e: 01, t : 001, s: 0001, n: 00001 c) a: 1010, e: 0, t : 11, s: 1011, n: 1001, i: 10001"
+10,4,"Given the coding scheme a: 001, b: 0001, e: 1, r: 0000, s: 0100, t : 011, x: 01010, find the word represented by a) 0111010001 1. b) 0001 110000. c) 0100101 1. d) 01100101010."
+10,5,"Use Huffman coding to encode these symbols with given frequencies: A: 0.10, B: 0.25, C: 0.05, D: 0.15, E: 0.30, F: 0.07, G: 0.08. What is the average number of bits required to encode a symbol?"
+10,6,"Use Huffman coding to encode these symbols with frequencies a: 0.4, b: 0.2, c: 0.2, d: 0.1, e: 0.1 in two different ways by breaking ties in the algorithm differently . First, among the trees of minimum weight select two trees with the largest number of vertices to combine at each stage of the algorithm. Second, among the trees of minimum weight select two trees with the smallest number of vertices at each stage."
+10,7,"Draw a game tree for nim if the starting position consists of three piles with one, two, and three stones, respectively . When drawing the tree, represent by the same vertex the symmetric positions that result from the same move. Find the value of each vertex of the game tree.Who wins the game if both players follow an optimal strategy?"
+10,8,"Suppose that in a variation of the game of nim we allow a player to either remove one or more stones from a pile or merge the stones from two piles into one pile as long as at least one stone remains. Draw the game tree for this variation of nim if the starting position consists of three piles containing two, two, and one stone, respectively . Find the values of each vertex in the game tree and determine the winner if both players follow an optimal strategy ."
+10,9,"Show that if a game of nim begins with two piles containing different numbers of stones, the first player wins when both players follow optimal strategies."
+10,10,Provide the preorder traversal of the vertices of the following tree. Use the recursive algorithm and show the steps of the algorithm.
+10,11,Provide the preorder traversal of the vertices of the following tree. Use an iterative process that goes through the boundary of the edges; Show the steps of the process.
+10,12,Provide the inorder traversal of the vertices of the following tree. Use the recursive algorithm and show the steps of the algorithm.
+10,13,Provide the inorder traversal of the vertices of the following tree. Use an iterative process that goes through the boundary of the edges; Show the steps of the process.
+10,14,Provide the postorder traversal of the vertices of the following tree. Use the recursive algorithm and show the steps of the algorithm.
+10,15,Provide the postorder traversal of the vertices of the following tree. Use an iterative process that goes through the boundary of the edges; Show the steps of the process.
+11,1,Find a spanning tree for the graph shown by removing edges in simple circuits.
+11,2,Find a spanning tree for the graph shown by removing edges in simple circuits.
+11,3,Find a spanning tree for the graph shown by removing edges in simple circuits.
+11,4,Draw all the spanning trees of the given simple graph.
+11,5,Use breadth-first search to produce a spanning tree for the simple graph shown below . Choose a as the root of each spanning tree.
+11,6,"Describe the trees produced by breadth-first search and depth-first search of the complete graph K n , where n is a positive integer . Justify your answers."
+11,7,Use backtracking to try to find a coloring of the graphs shown below using three colors.
+11,8,"Use backtracking to find a subset, if it exists, of the set {27, 24, 19, 14, 11, 8} with sum a) 41. b) 60."
+11,9,"a) Explain how backtracking can be used to find the way out of a maze, given a starting position and the exit position. Consider the maze divided into positions, where at each position the set of available moves includes one to four possibilities (up, down, right, left). b) Find a path from the starting position marked by X to the exit in this maze."
+11,10,A spanning forest of a graph G is a forest that contains every vertex of G such that two vertices are in the same tree of the forest when there is a path in G between these two vertices. How many trees are in the spanning forest of a graph?
+11,11,Use pseudocode to describe a variation of depth-first search that assigns the integer n to the nth vertex visited in the search. Show that this numbering corresponds to the numbering of the vertices created by a preorder traversal of the spanning tree.
+11,12,"Describe a variation of depth-first search that assigns the smallest available positive integer to a vertex when the algorithm is totally finished with this vertex. Show that in this numbering, each vertex has a larger number than its children and that the children have increasing numbers from left to right."
+11,13,Use Prim’ s algorithm to find a minimum spanning tree for the given weighted graph.
+11,14,Use Prim’ s algorithm to find a minimum spanning tree for the given weighted graph.
+11,15,Use Kruskal’ s algorithm to find a minimum spanning tree for the weighted graph.
+12,1,"Let G = (V, T, S, P) be the phrase-structure grammar with V = {0, 1, A, S}, T = {0, 1}, and set of productions P consisting of S → 1S, S → 00A, A → 0A, and A → 0. a) Show that 111000 belongs to the language generated by G. b) Show that 11001 does not belong to the language generated by G. c) What is the language generated by G?"
+12,2,Find a phrase-structure grammar for the set of bit strings that start with 00 and end with one or more 1s.
+12,3,Find a phrase-structure grammar for the set of bit strings consisting of an even number of 1s followed by a final 0.
+12,4,Construct a phrase-structure grammar to generate {0 n 1 2n | n ≥ 0}.
+12,5,Give the state tables for the finite-state machine with this state diagram.
+12,6,"Construct a finite-state machine that models a newspaper vending machine that has a door that can be opened only after either three dimes (and any number of other coins) or a quarter and a nickel (and any number of other coins) have been inserted. Once the door can be opened, the customer opens it and takes a paper , closing the door. No change is ever returned no matter how much extra money has been inserted. The next customer starts with no credit."
+12,7,Find the language recognized by the given deterministic finite-state automaton.
+12,8,Construct a deterministic finite-state automaton that recognizes the set of all bit strings that end with 10.
