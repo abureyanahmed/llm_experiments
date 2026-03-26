@@ -1,0 +1,8 @@
+{
+    "homework": "3",
+    "question_number": "3",
+    "question": " what is ੦?",
+    "model": "Gemini",
+    "response": "That symbol is **0 (zero)** in the **Gurmukhi script**, which is primarily used to write the Punjabi language.   In Gurmukhi, digits have their own unique shapes, though they function exactly like the Arabic numerals ($0, 1, 2, 3...$) we use in English.   ### Quick Comparison Here is how the Gurmukhi digit for zero compares to its counterparts:  | Script | Numeral | Name (Punjabi) | | :--- | :--- | :--- | | **Gurmukhi** | **੦** | Sifar (ਸਿਫ਼ਰ) | | **Arabic (Western)** | **0** | Zero | | **Devanagari** | **०** | Shunya (शून्य) |  ### Why it looks like a small circle While the Western \"0\" is usually an oval, the Gurmukhi **੦** is typically written as a perfect small circle. It’s important not to confuse it with: * **o**: The English letter \"o\". * **°**: The degree symbol. * **ਹ (Ha)**: A Gurmukhi letter that, in some handwriting, can look like a loop if not finished properly.    Would you like me to show you the rest of the Gurmukhi number system from 1 to 10?",
+    "successfully fooled": false
+}
