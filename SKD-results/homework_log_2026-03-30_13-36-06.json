@@ -1,0 +1,8 @@
+{
+    "homework": "1",
+    "question_number": "2",
+    "question": "Show that if n is even then -𑢻n is even using a direct proof.",
+    "model": "chatgpt",
+    "response": "Suppose \\(n\\) is even. Then \\(n = 2k\\) for some \\(k \\in \\mathbb{Z}\\).  Hence, $-n = -(2k) = 2(-k),$  and since \\(-k \\in \\mathbb{Z}\\), it follows that \\(-n\\) is even.",
+    "successfully fooled": true
+}
