@@ -1,0 +1,8 @@
+{
+    "homework": "4",
+    "question_number": "2",
+    "question": "Find a recurrence relation to compute the number of bit strings. Write down a procedure that takes n as an input parameter and returns the number of bit strings. You can provide the pseudocode or implement it in your favorite programming language.",
+    "model": "Chatgpt",
+    "response": "A **bit string of length ( n )** is any sequence of 0s and 1s of length ( n ).  ---  ## 🔁 Recurrence Relation  Let ( B(n) ) be the number of bit strings of length ( n ).  * For each position, you have **2 choices**: 0 or 1. * So each string of length ( n ) can be formed by appending either 0 or 1 to a string of length ( n-1 ).  ### Recurrence:  [ B(n) = 2 \\cdot B(n-1) ]  ### Base case:  [ B(0) = 1 ] (There is exactly one string of length 0: the empty string.)  ---  ## 🧠 Closed-form (for reference)  [ B(n) = 2^n ]  ---  ## 💻 Procedure (Pseudocode)  function countBitStrings(n): if n == 0: return 1 else: return 2 * countBitStrings(n - 1)  ---  ## ⚡ Iterative Version (More Efficient)  function countBitStrings(n): result = 1 for i from 1 to n: result = result * 2 return result  ---  ## 🐍 Python Implementation  ```python def count_bit_strings(n):     return 2 ** n ```  ---  ## ✅ Summary  * Recurrence: ( B(n) = 2B(n-1) ) * Base case: ( B(0) = 1 ) * Result: ( B(n) = 2^n )  ---  If you want, I can extend this to **bit strings with constraints** (like no consecutive 1s), which leads to more interesting recurrence relations.",
+    "successfully fooled": false
+}
