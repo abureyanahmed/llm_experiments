@@ -1,0 +1,8 @@
+{
+    "homework": "4",
+    "question_number": "5",
+    "question": "What is 𑢻?",
+    "model": "Gemini",
+    "response": "The symbol **𑢻** is a character from the **Warang Citi** script. Specifically, it is the digit **7** in that writing system.  ### Background on Warang Citi The Warang Citi script is an alphabet developed by Lako Bodra in the mid-20th century to write **Ho**, a Munda language spoken primarily in the Indian states of Jharkhand and Odisha.  ---  ### Understanding the Digit In the Unicode standard, this character is identified as **Warang Citi Digit Seven**. Here is how it fits into the local numbering system:  * **Script Name:** Warang Citi (also spelled Varang Kshiti) * **Unicode Block:** Warang Citi ($U+118A0$ to $U+118FF$) * **Specific Code Point:** $U+118FB$ * **Value:** 7    ### Quick Comparison To give you an idea of how it looks alongside its neighbors in the script:  | Value | Warang Citi Character | | :--- | :--- | | 6 | 𑢺 | | **7** | **𑢻** | | 8 | 𑢼 |  Is there a specific language or script you're currently studying, or did you just happen to stumble upon this unique character?",
+    "successfully fooled": true
+}

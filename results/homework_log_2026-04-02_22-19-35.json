@@ -1,0 +1,8 @@
+{
+    "homework": "4",
+    "question_number": "5",
+    "question": "What is ５?",
+    "model": "Chatgpt",
+    "response": "The symbol **５** is the *fullwidth* version of the number **5**.  It’s used in certain writing systems (like Japanese, Chinese, or Korean typography) where characters are spaced evenly in a grid. Despite looking slightly wider, it has the exact same value as the regular digit:  **５ = 5**  So it simply represents the number five.",
+    "successfully fooled": false
+}
