@@ -1,0 +1,8 @@
+{
+    "homework": "6",
+    "question_number": "5",
+    "question": "Compute the GCD of 𖼻5 and 50 using the brute force method that we discussed in class. Provide all divisors of 𖼻5 and 50. Provide the list of common divisors. And finally provide the GCD.",
+    "model": "Chatgpt",
+    "response": "\"It looks like the number “𖼻5” is likely a formatting issue. I’ll assume you meant **35** (a common example paired with 50). If that’s not correct, tell me and I’ll redo it.### Step 1: List all divisors**Divisors of 35:**1, 5, 7, 35**Divisors of 50:**1, 2, 5, 10, 25, 50---### Step 2: Common divisorsNumbers that appear in both lists:**1, 5**---### Step 3: Greatest Common Divisor (GCD)The largest common divisor is:**GCD = 5**---If you meant a different number instead of 35, just let me know 👍\"",
+    "successfully fooled": false
+}
