@@ -1,0 +1,8 @@
+{
+    "homework": "10",
+    "question_number": "2",
+    "question": "How many weighings of a balance scale are needed to find a lighter counterfeit coin among 𑢯 coins? Describe an algorithm",
+    "model": "Chatgpt",
+    "response": "The symbol **𑢯** represents the number **27**, so the problem is:> Find one lighter counterfeit coin among 27 coins using a balance scale.### ✅ Minimum number of weighingsA balance scale has **3 possible outcomes** per weighing:* Left pan heavier* Right pan heavier* EqualSo each weighing gives **log₃ information**.We need the smallest ( k ) such that:[3^k \\ge 27][3^3 = 27]👉 **Minimum weighings required: 3**---### 🧠 Algorithm (Divide into 3 groups each time)This is a classic **ternary search strategy**:#### Step 1:Divide the 27 coins into **3 equal groups of 9**:* Group A (9 coins)* Group B (9 coins)* Group C (9 coins)Weigh **A vs B**:* If equal → counterfeit is in **C*** If not → lighter side contains the fake#### Step 2:Now you have **9 coins**. Divide into **3 groups of 3**.Weigh two groups:* If equal → fake is in the third group* If not → lighter side has the fake#### Step 3:Now you have **3 coins**. Weigh **1 vs 1**:* If equal → third coin is fake* If not → lighter one is fake---",
+    "successfully fooled": true
+}

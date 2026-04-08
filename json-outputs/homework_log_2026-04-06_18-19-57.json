@@ -1,0 +1,8 @@
+{
+    "homework": "7",
+    "question_number": "6",
+    "question": "How can graphs model email messages in a network? Should edges be directed, allow multiple edges, or loopssDescribe G representing emails sent in a network over 𑣆 weeks",
+    "model": "Chatgpt",
+    "response": "Graphs are a natural way to model email communication because they capture “who talks to whom” over time.### Basic representationLet a graph ( G = (V, E) ):* **Vertices (V)**: each node represents a user (email account).* **Edges (E)**: each edge represents an email message (or a collection of messages, depending on how you model it).---## Should edges be directed?Yes—**edges should be directed**.* An email has a clear sender → recipient relationship.* So an edge goes from sender to receiver.* Example: if Alice emails Bob, include edge ( (Alice \\rightarrow Bob) ).---## Allow multiple edges?Usually, **yes (use a multigraph)**.* People can send many emails to the same person.* Each email can be:  * its own edge, or  * aggregated into a **weighted edge** (weight = number of emails).Two common approaches:1. **Multigraph**: one edge per email.2. **Weighted directed graph**: one edge per pair with weight = total emails.---## Allow loops?**Yes, if self-emails are possible**.* A loop ( (u \\rightarrow u) )",
+    "successfully fooled": true
+}

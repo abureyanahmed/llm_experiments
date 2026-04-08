@@ -1,0 +1,8 @@
+{
+    "homework": "12",
+    "question_number": "6",
+    "question": "Construct a finite-state machine that models a newspaper vending machine that has a door that can be opened only after either 𑢯 dimes (and any number of other coins) or a quarter and a nickel (and any number of other coins) have been inserted. Once the door can be opened, the customer opens it and takes a paper , closing the door. No change is ever returned no matter how much extra money has been inserted. The next customer starts with no credit.",
+    "model": "Gemini",
+    "response": "To model this newspaper vending machine, we need to track the total value of coins inserted until the \"unlock\" condition is met. The two paths to opening the door are:1.  **Three Dimes:** $10¢ + 10¢ + 10¢ = 30¢$2.  **Quarter and a Nickel:** $25¢ + 5¢ = 30¢$Since no change is returned and any extra coins are ignored once the threshold is reached, we can define the states based on the current balance.### 1. Formal DefinitionA Finite-State Machine (FSM) is defined by the quintuple $(S, I, O, f, g)$:* **States ($S$):** $\\{S_0, S_{10}, S_{20}, S_{25}, S_{Open}\\}$    * $S_0$: Initial state (0¢).    * $S_{10}$: 10¢ total.    * $S_{20}$: 20¢ total.    * $S_{25}$: 25¢ total.    * $S_{Open}$: Goal state (Door unlocked).* **Inputs ($I$):** $\\{n, d, q, \\text{open}\\}$    * $n$: Nickel (5¢)    * $d$: Dime (10¢)    * $q$: Quarter (25¢)    * $\\text{open}$: Customer opens/closes the door.* **Outputs ($O$):** $\\{L, U\\}$    * $L$: Door Locked.    * $U$: Door Unlocked.---### 2. State Transition TableThe machine st",
+    "successfully fooled": true
+}

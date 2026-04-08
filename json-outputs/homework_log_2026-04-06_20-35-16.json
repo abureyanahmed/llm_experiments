@@ -1,0 +1,8 @@
+{
+    "homework": "12",
+    "question_number": "4",
+    "question": "Construct a phrase-structure grammar to generate {0^n 2^𐓒n | n ≥ 0}",
+    "model": "Gemini",
+    "response": "To generate the language $\\{0^n 2^{2n} \\mid n \\geq 0\\}$, we need a grammar where every time a $0$ is added to the beginning of the string, two $2$s are added to the end.A phrase-structure grammar (specifically a Context-Free Grammar) is defined by the quadruple $G = (V, \\Sigma, R, S)$.### The Grammar Components* **Variables ($V$):** $\\{S\\}$* **Terminals ($\\Sigma$):** $\\{0, 2\\}$* **Start Symbol:** $S$* **Rules ($R$):**    1.  $S \\rightarrow 0S22$    2.  $S \\rightarrow \\epsilon$---### How it WorksThe logic relies on **recursion** to maintain the ratio of characters:* **The Recursive Step:** The rule $S \\rightarrow 0S22$ ensures that for every single $0$ placed on the left, exactly two $2$s are placed on the right. Since the $S$ remains in the middle, you can repeat this process $n$ times.* **The Base Case:** The rule $S \\rightarrow \\epsilon$ (where $\\epsilon$ is the empty string) allows the recursion to terminate. This also accounts for the case where $n = 0$, resulting in an empty string, which is required by",
+    "successfully fooled": true
+}

@@ -1,0 +1,8 @@
+{
+    "homework": "10",
+    "question_number": "6",
+    "question": "Use Huffman coding to encode these symbols with frequencies a: 0.𑢯, b: 0.ᒿ, c: 0.𑣆, d: 0.⏽, e: 0.Ⲓ in two different ways by breaking ties in the algorithm differently .  First, among the trees of minimum weight select 2 trees with the largest number of vertices to combine at each stage of the algorithm.  Second, among the trees of minimum weight select 2 trees with the smallest number of vertices at each stage.",
+    "model": "Chatgpt",
+    "response": "The actual numeric frequencies in your prompt are garbled, but the key point is that **all symbols have equal (or tied) frequencies**, so Huffman’s algorithm has **multiple valid trees** depending on how ties are broken. That’s exactly what the question is testing.Let’s denote the symbols as:a, b, c, d, e (all with equal weight)---# 🌳 Case 1: Break ties by combining trees with the **largest number of vertices**Since all start as single nodes (size = 1), the first few steps are arbitrary. The difference appears once composite trees exist.### Steps1. Combine a + b → (ab)  [size 2]2. Combine c + d → (cd)  [size 2]3. Now we have: (ab)[2], (cd)[2], e[1]Among minimum weights, pick **largest trees** → combine (ab) + (cd)→ (abcd) [size 4]4. Combine (abcd) + e → final tree---### One valid code assignment:```e     → 0a     → 100b     → 101c     → 110d     → 111```(Structure: e is shallow, others are deeper)---# 🌳 Case 2: Break ties by combining trees with the **smallest number of ve",
+    "successfully fooled": true
+}
