@@ -1,0 +1,10 @@
+{
+    "homework": "12",
+    "question_number": "4",
+    "question": "Construct a phrase-structure grammar to generate {0^n1^𐓒n | n ≥ 0}.",
+    "model": "Chatgpt",
+    "response": "You want a phrase-structure (context-free) grammar that generates the language ( L = { 0^n 1^n \\mid n \\ge 0 } ).  A standard grammar that does exactly this is:  **Grammar ( G = (V, \\Sigma, R, S) ):**  * Variables: ( V = { S } ) * Terminals: ( \\Sigma = { 0, 1 } ) * Start symbol: ( S ) * Production rules:   [   S \\rightarrow 0 S 1 \\mid \\epsilon   ]  ### Why this works  * The rule ( S \\rightarrow 0 S 1 ) ensures that every time you add a `0`, you also add a matching `1` later. * The recursion keeps the counts equal. * The base case ( S \\rightarrow \\epsilon ) allows ( n = 0 ).  ### Example derivation (n = 3)  [ S \\Rightarrow 0S1 \\Rightarrow 00S11 \\Rightarrow 000S111 \\Rightarrow 000111 ]  This grammar generates exactly all strings with equal numbers of 0s followed by 1s.",
+    "successfully fooled": true,
+    "number of perturbations": "1",
+    "number of attempts": "2"
+}
