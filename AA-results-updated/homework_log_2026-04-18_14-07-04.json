@@ -1,0 +1,10 @@
+{
+    "homework": "6",
+    "question_number": "13",
+    "question": "Consider the following program: procedure multyply_neg_one (n): m := -𐓒 i := 1 while i<n: i := i + 1 m := m.(-𐓒) Show that after executing the program for a particular value of n>0, m = (-𐓒) n",
+    "model": "Claude",
+    "response": "\"## Proof by Loop Invariant**Goal:** Show that after the program executes with input n > 0, we have m = (−1)ⁿ.---### SetupThe program computes:```procedure multiply_neg_one(n):    m := -1    i := 1    while i < n:        i := i + 1        m := m · (-1)```We prove correctness using a **loop invariant**.---### Loop InvariantDefine the invariant **P(i)**:> **m = (−1)^i**---### Proof#### 1. InitialisationBefore the loop begins: `m = −1` and `i = 1`.We check: (−1)¹ = −1 = m. ✓So **P(1)** holds before the first iteration.---#### 2. Maintenance (Inductive Step)Assume **P(i)** holds at the start of some iteration, i.e., **m = (−1)^i**, and that the loop condition `i < n` is satisfied.During the iteration:- `i` is updated: **i_new := i + 1**- `m` is updated: **m_new := m · (−1) = (−1)^i · (−1) = (−1)^(i+1) = (−1)^(i_new)**So **P(i_new)** holds at the end of the iteration. ✓By induction, **P(i)** is maintained throughout all iterations.---#### 3. TerminationSince n > 0 and i starts at 1, and i increases by 1 each iteration, the loop terminates when:> **i = n** (the condition `i < n` becomes false)---#### 4. ConclusionAt termination, the invariant **P(i)** holds and **i = n**, so:$$\\boxed{m = (-1)^n}$$∎\"",
+    "successfully fooled": true,
+    "number of perturbations": "3",
+    "number of attempts": "1"
+}
