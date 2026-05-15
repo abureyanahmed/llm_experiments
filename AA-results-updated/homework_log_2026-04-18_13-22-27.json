@@ -6,5 +6,6 @@
     "response": "\"Sure! Let’s carefully solve this **step by step**. First, I need to clarify the numbers in your question. You used unusual symbols for the stamp values: `𖼻` and `𐓒`. Can you confirm the **numerical values** of the two types of stamps? For example, is it 4 cents and 5 cents, or something else? This is important for the calculations.\"",
     "successfully fooled": true,
     "number of perturbations": "2",
-    "number of attempts": "1"
+    "number of attempts": "1",
+    "category": "induction"
 }
