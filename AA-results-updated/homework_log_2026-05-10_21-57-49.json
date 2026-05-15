@@ -1,0 +1,11 @@
+{
+    "homework": "5",
+    "question_number": "9",
+    "question": "Prove that 𐓒(1^2 − 2^2 + 3^2 − · · · + (−1)^n−1 n^2) = 𐓒(−1)^n−1 n(n + 1)/2 whenever n is a positive integer.",
+    "model": "Claude",
+    "response": "\"## Proof by Mathematical InductionWe want to prove that for all positive integers $n$:$$\\sum_{k=1}^{n} (-1)^{k-1} k^2 = (-1)^{n-1} \\frac{n(n+1)}{2}$$---### Base Case: $n = 1$**Left-hand side:**$$(-1)^{1-1} \\cdot 1^2 = (-1)^0 \\cdot 1 = 1$$**Right-hand side:**$$(-1)^{1-1} \\cdot \\frac{1(1+1)}{2} = 1 \\cdot \\frac{2}{2} = 1$$Since LHS $=$ RHS $= 1$, the base case holds. ✓---### Inductive Step**Inductive Hypothesis:** Assume the statement holds for some positive integer $n = k$, i.e.:$$\\sum_{i=1}^{k} (-1)^{i-1} i^2 = (-1)^{k-1} \\frac{k(k+1)}{2}$$**Goal:** Show the statement holds for $n = k+1$, i.e.:$$\\sum_{i=1}^{k+1} (-1)^{i-1} i^2 = (-1)^{k} \\frac{(k+1)(k+2)}{2}$$**Proof:**Starting from the left-hand side for $n = k+1$:$$\\sum_{i=1}^{k+1} (-1)^{i-1} i^2 = \\left[\\sum_{i=1}^{k} (-1)^{i-1} i^2\\right] + (-1)^{k}(k+1)^2$$Applying the **inductive hypothesis**:$$= (-1)^{k-1}\\frac{k(k+1)}{2} + (-1)^{k}(k+1)^2$$Factor out $(-1)^{k-1}(k+1)$, noting that $(-1)^k = -(-1)^{k-1}$:$$= (-1)^{k-1}(k+1)\\left[\\frac{k}{2} - (k+1)\\right]$$Simplify the bracket:$$\\frac{k}{2} - (k+1) = \\frac{k - 2(k+1)}{2} = \\frac{k - 2k - 2}{2} = \\frac{-k-2}{2} = -\\frac{(k+2)}{2}$$Substituting back:$$= (-1)^{k-1}(k+1) \\cdot \\left(-\\frac{k+2}{2}\\right)$$$$= (-1)^{k-1} \\cdot (-1) \\cdot \\frac{(k+1)(k+2)}{2}$$$$= (-1)^{k} \\cdot \\frac{(k+1)(k+2)}{2}$$This is exactly the RHS for $n = k+1$. ✓---### ConclusionBy the **Principle of Mathematical Induction**, the identity$$\\sum_{k=1}^{n} (-1)^{k-1} k^2 = (-1)^{n-1} \\frac{n(n+1)}{2}$$holds for all positive integers $n$. $\\blacksquare$\"",
+    "successfully fooled": true,
+    "number of perturbations": "2",
+    "number of attempts": "1",
+    "category": "summation"
+}

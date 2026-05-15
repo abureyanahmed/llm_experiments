@@ -6,5 +6,6 @@
     "response": "\"It looks like the first number didn't come through correctly — the character before \"\"5\"\" appears to be a garbled or unsupported Unicode symbol (𖼻), so I can't tell what the intended number is.Could you clarify the first number? For example, did you mean **15**, **25**, **35**, **45**, or something else?\"",
     "successfully fooled": true,
     "number of perturbations": "2",
-    "number of attempts": "1"
+    "number of attempts": "1",
+    "category": "algorithms"
 }

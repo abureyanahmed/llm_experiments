@@ -6,5 +6,6 @@
     "response": "I notice the first number contains a special character (𖼻8) that makes it unclear. Could you clarify what the first number is? It looks like it might be **48**, **98**, **18**, or another number where the special character is replacing a digit.",
     "successfully fooled": true,
     "number of perturbations": "2",
-    "number of attempts": "1"
+    "number of attempts": "1",
+    "category": "algorithms"
 }
